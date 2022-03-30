@@ -68,7 +68,7 @@ main div{
 }
 
 main div img{
-    width: 400px
+    width: 400px;
 }
 
 main div img:nth-of-type(2){
@@ -77,10 +77,44 @@ main div img:nth-of-type(2){
 
 main article{
     text-align: left;
+    margin: 80px 0;
 }
 
 main article p{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin: 20px 0;
+}
+
+main article p span{
+    color: red;
+}
+
+main article p:nth-of-type(1n + 5) span{
+    color: green;
+}
+
+/* =============================
+            Footer
+===============================*/
+
+footer{
+    text-align: center;
+    border-top: 2px solid #ccc;
+    padding: 50px 0;
+}
+
+footer a{
+    color: #999;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Cinzel', serif;
+}
+
+footer div i{
+    font-size: 50px;
+}
+
+footer div i:hover{
+    color: tomato;
 }
